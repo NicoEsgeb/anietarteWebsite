@@ -3,6 +3,10 @@
     "category": "Budas",
     "items": [
       {
+        "src": "resources/imagesObjects/Budas/test.JPG",
+        "alt": "Budas - test"
+      },
+      {
         "src": "resources/imagesObjects/Budas/Ziña Buda BD-0001.JPG",
         "alt": "Budas - Ziña Buda BD-0001"
       },
@@ -160,8 +164,25 @@
     ]
   },
   {
+    "category": "otros",
+    "items": [
+      {
+        "src": "resources/imagesObjects/otros/Decorativa DC-0001.JPG",
+        "alt": "otros - Decorativa DC-0001"
+      },
+      {
+        "src": "resources/imagesObjects/otros/Decorativa DC-0002.JPG",
+        "alt": "otros - Decorativa DC-0002"
+      }
+    ]
+  },
+  {
     "category": "PortaRegalos",
     "items": [
+      {
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo adulto PA-0001.JPG",
+        "alt": "PortaRegalos - Porta regalo adulto PA-0001"
+      },
       {
         "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0001.JPG",
         "alt": "PortaRegalos - Porta regalo Bebé PR-0001"
@@ -181,10 +202,6 @@
       {
         "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0005.JPG",
         "alt": "PortaRegalos - Porta regalo Bebé PR-0005"
-      },
-      {
-        "src": "resources/imagesObjects/PortaRegalos/Porta regalo adulto PA-0001.JPG",
-        "alt": "PortaRegalos - Porta regalo adulto PA-0001"
       }
     ]
   },
@@ -198,19 +215,6 @@
       {
         "src": "resources/imagesObjects/TablasPicoteo/Tabla picoteo TP-0002.JPG",
         "alt": "TablasPicoteo - Tabla picoteo TP-0002"
-      }
-    ]
-  },
-  {
-    "category": "otros",
-    "items": [
-      {
-        "src": "resources/imagesObjects/otros/Decorativa DC-0001.JPG",
-        "alt": "otros - Decorativa DC-0001"
-      },
-      {
-        "src": "resources/imagesObjects/otros/Decorativa DC-0002.JPG",
-        "alt": "otros - Decorativa DC-0002"
       }
     ]
   }

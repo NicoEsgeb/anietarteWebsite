@@ -4,19 +4,19 @@
     "items": [
       {
         "src": "resources/imagesPeople/groupSelfie.png",
-        "alt": "Fotos del grupo!"
+        "alt": "Fotos del grupo"
       },
       {
         "src": "resources/imagesPeople/groupSelfie2.png",
-        "alt": "Fotos del grupo!"
+        "alt": "Fotos del grupo"
       },
       {
         "src": "resources/imagesPeople/groupSelfie3.png",
-        "alt": "Fotos del grupo!"
+        "alt": "Fotos del grupo"
       },
       {
         "src": "resources/imagesPeople/groupSelfie5.png",
-        "alt": "Fotos del grupo!"
+        "alt": "Fotos del grupo"
       }
     ]
   },
@@ -25,31 +25,31 @@
     "items": [
       {
         "src": "resources/imagesPeople/groupWorking.png",
-        "alt": "Trabajando!"
+        "alt": "Trabajando juntas"
       },
       {
         "src": "resources/imagesPeople/groupWorking3.png",
-        "alt": "Trabajando!"
+        "alt": "Trabajando juntas"
       },
       {
         "src": "resources/imagesPeople/groupWorking4.png",
-        "alt": "Trabajando!"
+        "alt": "Trabajando juntas"
       },
       {
         "src": "resources/imagesPeople/groupWorking5.png",
-        "alt": "Trabajando!"
+        "alt": "Trabajando juntas"
       },
       {
         "src": "resources/imagesPeople/groupWorking6.png",
-        "alt": "Trabajando!"
+        "alt": "Trabajando juntas"
       },
       {
         "src": "resources/imagesPeople/groupWorking7.png",
-        "alt": "Trabajando!"
+        "alt": "Trabajando juntas"
       },
       {
         "src": "resources/imagesPeople/groupWorking8.png",
-        "alt": "Trabajando!"
+        "alt": "Trabajando juntas"
       }
     ]
   },

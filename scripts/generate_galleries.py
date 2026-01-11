@@ -1,40 +1,43 @@
 #!/usr/bin/env python3
-"""
-Utility to regenerate gallery JSON data from the local resources folders.
-"""
+"""Utility to regenerate gallery JSON data from the local resources folders."""
 
 import json
 from pathlib import Path
 from typing import Dict, List
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-RESOURCES_DIR = BASE_DIR / "resources"
-OBJECTS_DIR = RESOURCES_DIR / "imagesObjects"
-PEOPLE_DIR = RESOURCES_DIR / "imagesPeople"
-DATA_DIR = BASE_DIR / "data"
-
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 
 
+def find_repo_root() -> Path:
+    """Walk upward from this file until we find the repo root (identified by /resources)."""
+    start = Path(__file__).resolve().parent
+    for candidate in [start, *start.parents]:
+        if (candidate / "resources").is_dir():
+            return candidate
+    raise FileNotFoundError("Could not find repository root containing 'resources' directory.")
+
+
 def list_image_files(folder: Path) -> List[Path]:
+    if not folder.is_dir():
+        return []
     return sorted(
-        [
-            path
-            for path in folder.iterdir()
-            if path.is_file() and path.suffix.lower() in IMAGE_EXTS
-        ]
+        [path for path in folder.iterdir() if path.is_file() and path.suffix.lower() in IMAGE_EXTS],
+        key=lambda path: path.name.casefold(),
     )
 
 
-def build_objects_payload() -> List[Dict]:
+def build_objects_payload(objects_dir: Path, base_dir: Path) -> List[Dict]:
+    if not objects_dir.is_dir():
+        return []
+
     payload: List[Dict] = []
-    for category_dir in sorted(OBJECTS_DIR.iterdir()):
+    for category_dir in sorted(objects_dir.iterdir(), key=lambda path: path.name.casefold()):
         if not category_dir.is_dir():
             continue
 
         items = []
         for img in list_image_files(category_dir):
-            rel_path = img.relative_to(BASE_DIR).as_posix()
+            rel_path = img.relative_to(base_dir).as_posix()
             alt_text = f"{category_dir.name} - {img.stem}"
             items.append({"src": rel_path, "alt": alt_text})
 
@@ -44,18 +47,21 @@ def build_objects_payload() -> List[Dict]:
     return payload
 
 
-def build_people_payload() -> List[Dict]:
+def build_people_payload(people_dir: Path, base_dir: Path) -> List[Dict]:
+    if not people_dir.is_dir():
+        return []
+
     prefix_groups = [
-        ("groupSelfie", "Group Selfie"),
-        ("groupWorking", "Group Working"),
-        ("objectCreated", "Objects in Progress"),
-        ("personShowingTheirObjectCreated", "People with Their Creations"),
+        ("groupSelfie", "Fotos del grupo"),
+        ("groupWorking", "Trabajando juntas"),
+        ("objectCreated", "Nuestras creaciones"),
+        ("personShowingTheirObjectCreated", "Alumnas y su arte"),
     ]
     grouped: Dict[str, List[Dict]] = {label: [] for _, label in prefix_groups}
     others: List[Dict] = []
 
-    for img in list_image_files(PEOPLE_DIR):
-        rel_path = img.relative_to(BASE_DIR).as_posix()
+    for img in list_image_files(people_dir):
+        rel_path = img.relative_to(base_dir).as_posix()
         group_label = None
 
         for prefix, label in prefix_groups:
@@ -63,10 +69,12 @@ def build_people_payload() -> List[Dict]:
                 group_label = label
                 break
 
+        entry = {"src": rel_path, "alt": group_label or img.stem}
+
         if group_label:
-            grouped[group_label].append({"src": rel_path, "alt": group_label})
+            grouped[group_label].append(entry)
         else:
-            others.append({"src": rel_path, "alt": img.stem})
+            others.append(entry)
 
     payload = []
     for _, label in prefix_groups:
@@ -86,11 +94,17 @@ def save_json(path: Path, payload: List[Dict]) -> None:
 
 
 def main() -> None:
-    objects_payload = build_objects_payload()
-    people_payload = build_people_payload()
+    repo_root = find_repo_root()
+    resources_dir = repo_root / "resources"
+    objects_dir = resources_dir / "imagesObjects"
+    people_dir = resources_dir / "imagesPeople"
+    data_dir = repo_root / "data"
 
-    save_json(DATA_DIR / "objects.json", objects_payload)
-    save_json(DATA_DIR / "people.json", people_payload)
+    objects_payload = build_objects_payload(objects_dir, repo_root)
+    people_payload = build_people_payload(people_dir, repo_root)
+
+    save_json(data_dir / "objects.json", objects_payload)
+    save_json(data_dir / "people.json", people_payload)
 
     print(f"Wrote {len(objects_payload)} object categories to data/objects.json")
     print(f"Wrote {len(people_payload)} people groups to data/people.json")

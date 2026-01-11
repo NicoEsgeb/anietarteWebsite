@@ -1,0 +1,40 @@
+name: Regenerate galleries
+
+on:
+  push:
+    paths:
+      - "resources/imagesObjects/**"
+      - "resources/imagesPeople/**"
+      - "scripts/generate_galleries.py"
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate gallery data
+        run: python scripts/generate_galleries.py
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet data; then
+            echo "No gallery changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/objects.json data/people.json
+          git commit -m "chore: regenerate gallery data"
+          git push
