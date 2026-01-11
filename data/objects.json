@@ -3,10 +3,6 @@
     "category": "Budas",
     "items": [
       {
-        "src": "resources/imagesObjects/Budas/test.JPG",
-        "alt": "Budas - test"
-      },
-      {
         "src": "resources/imagesObjects/Budas/Ziña Buda BD-0001.JPG",
         "alt": "Budas - Ziña Buda BD-0001"
       },
