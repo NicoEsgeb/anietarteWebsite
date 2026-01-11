@@ -1,5 +1,13 @@
 const dataCache = {};
 const lightbox = createLightbox();
+const OBJECT_CATEGORY_LABELS = {
+  CajasMadera: "Cajas de Madera",
+  EsculturasAnimales: "Esculturas de animales",
+  EsculturasHumanas: "Esculturas humanas",
+  PortaRegalos: "Porta regalos",
+  TablasPicoteo: "Tablas de Picoteo",
+  otros: "Otros",
+};
 
 document.addEventListener("DOMContentLoaded", () => {
   initObjectsPage();
@@ -105,6 +113,10 @@ function createLightbox() {
   };
 }
 
+function formatObjectCategory(cat) {
+  return OBJECT_CATEGORY_LABELS[cat] || cat;
+}
+
 async function initObjectsPage() {
   const gallery = document.querySelector('[data-gallery="objects"]');
   const chipContainer = document.querySelector('[data-filter-container="objects"]');
@@ -116,14 +128,6 @@ async function initObjectsPage() {
       cat.items.map((item) => ({ ...item, category: cat.category }))
     );
     const categories = data.map((cat) => cat.category);
-    const OBJECT_CATEGORY_LABELS = {
-      CajasMadera: "Cajas de Madera",
-      EsculturasAnimales: "Esculturas de animales",
-      EsculturasHumanas: "Esculturas humanas",
-      PortaRegalos: "Porta regalos",
-      TablasPicoteo: "Tablas de Picoteo",
-      otros: "Otros",
-    };
     const urlCategory = decodeURIComponent(
       new URLSearchParams(window.location.search).get("cat") || ""
     );
@@ -142,7 +146,7 @@ async function initObjectsPage() {
       defaultFilter,
       {
         allText: "Todas las fotos",
-        formatLabel: (cat) => OBJECT_CATEGORY_LABELS[cat] || cat,
+        formatLabel: formatObjectCategory,
       }
     );
   } catch (error) {
@@ -207,7 +211,9 @@ async function initFeaturedObjects() {
 
       const meta = document.createElement("div");
       meta.className = "meta";
-      meta.innerHTML = `<span>${cat.category}</span><span class="link">Ver más →</span>`;
+      meta.innerHTML = `<span>${formatObjectCategory(
+        cat.category
+      )}</span><span class="link">Ver más →</span>`;
 
       card.appendChild(img);
       card.appendChild(meta);
