@@ -1,0 +1,106 @@
+[
+  {
+    "group": "Fotos del grupo",
+    "items": [
+      {
+        "src": "resources/imagesPeople/groupSelfie.png",
+        "alt": "Fotos del grupo!"
+      },
+      {
+        "src": "resources/imagesPeople/groupSelfie2.png",
+        "alt": "Fotos del grupo!"
+      },
+      {
+        "src": "resources/imagesPeople/groupSelfie3.png",
+        "alt": "Fotos del grupo!"
+      },
+      {
+        "src": "resources/imagesPeople/groupSelfie5.png",
+        "alt": "Fotos del grupo!"
+      }
+    ]
+  },
+  {
+    "group": "Trabajando juntas",
+    "items": [
+      {
+        "src": "resources/imagesPeople/groupWorking.png",
+        "alt": "Trabajando!"
+      },
+      {
+        "src": "resources/imagesPeople/groupWorking3.png",
+        "alt": "Trabajando!"
+      },
+      {
+        "src": "resources/imagesPeople/groupWorking4.png",
+        "alt": "Trabajando!"
+      },
+      {
+        "src": "resources/imagesPeople/groupWorking5.png",
+        "alt": "Trabajando!"
+      },
+      {
+        "src": "resources/imagesPeople/groupWorking6.png",
+        "alt": "Trabajando!"
+      },
+      {
+        "src": "resources/imagesPeople/groupWorking7.png",
+        "alt": "Trabajando!"
+      },
+      {
+        "src": "resources/imagesPeople/groupWorking8.png",
+        "alt": "Trabajando!"
+      }
+    ]
+  },
+  {
+    "group": "Nuestras creaciones",
+    "items": [
+      {
+        "src": "resources/imagesPeople/objectCreated1.png",
+        "alt": "Nuestras creaciones"
+      },
+      {
+        "src": "resources/imagesPeople/objectCreated2.png",
+        "alt": "Nuestras creaciones"
+      },
+      {
+        "src": "resources/imagesPeople/objectCreated3.png",
+        "alt": "Nuestras creaciones"
+      },
+      {
+        "src": "resources/imagesPeople/objectCreated4.png",
+        "alt": "Nuestras creaciones"
+      },
+      {
+        "src": "resources/imagesPeople/objectCreated5.png",
+        "alt": "Nuestras creaciones"
+      },
+      {
+        "src": "resources/imagesPeople/objectCreated6.png",
+        "alt": "Nuestras creaciones"
+      },
+      {
+        "src": "resources/imagesPeople/objectCreated8.png",
+        "alt": "Nuestras creaciones"
+      }
+    ]
+  },
+  {
+    "group": "Alumnas y su arte",
+    "items": [
+      {
+        "src": "resources/imagesPeople/personShowingTheirObjectCreated.png",
+        "alt": "Alumnas y su arte"
+      },
+      {
+        "src": "resources/imagesPeople/personShowingTheirObjectCreated2.png",
+        "alt": "Alumnas y su arte"
+      },
+      {
+        "src": "resources/imagesPeople/personShowingTheirObjectCreated3.png",
+        "alt": "Alumnas y su arte"
+      }
+    ]
+  }
+]

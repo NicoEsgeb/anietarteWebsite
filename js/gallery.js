@@ -116,18 +116,35 @@ async function initObjectsPage() {
       cat.items.map((item) => ({ ...item, category: cat.category }))
     );
     const categories = data.map((cat) => cat.category);
+    const OBJECT_CATEGORY_LABELS = {
+      CajasMadera: "Cajas de Madera",
+      EsculturasAnimales: "Esculturas de animales",
+      EsculturasHumanas: "Esculturas humanas",
+      PortaRegalos: "Porta regalos",
+      TablasPicoteo: "Tablas de Picoteo",
+      otros: "Otros",
+    };
     const urlCategory = decodeURIComponent(
       new URLSearchParams(window.location.search).get("cat") || ""
     );
     const defaultFilter = categories.includes(urlCategory) ? urlCategory : "Todos";
 
-    setupFilterChips(chipContainer, categories, (category) => {
-      const filtered =
-        category && category !== "Todos"
-          ? allItems.filter((item) => item.category === category)
-          : allItems;
-      renderGallery(filtered, gallery);
-    }, defaultFilter);
+    setupFilterChips(
+      chipContainer,
+      categories,
+      (category) => {
+        const filtered =
+          category && category !== "Todos"
+            ? allItems.filter((item) => item.category === category)
+            : allItems;
+        renderGallery(filtered, gallery);
+      },
+      defaultFilter,
+      {
+        allText: "Todas las fotos",
+        formatLabel: (cat) => OBJECT_CATEGORY_LABELS[cat] || cat,
+      }
+    );
   } catch (error) {
     renderError(gallery, error.message);
   }
@@ -145,13 +162,21 @@ async function initPeoplePage() {
     );
     const groups = data.map((group) => group.group);
 
-    setupFilterChips(chipContainer, groups, (groupName) => {
-      const filtered =
-        groupName && groupName !== "Todos"
-          ? allItems.filter((item) => item.group === groupName)
-          : allItems;
-      renderGallery(filtered, gallery);
-    });
+    setupFilterChips(
+      chipContainer,
+      groups,
+      (groupName) => {
+        const filtered =
+          groupName && groupName !== "Todos"
+            ? allItems.filter((item) => item.group === groupName)
+            : allItems;
+        renderGallery(filtered, gallery);
+      },
+      "Todos",
+      {
+        allText: "Todas las fotos",
+      }
+    );
   } catch (error) {
     renderError(gallery, error.message);
   }
@@ -214,12 +239,7 @@ async function initCommunityPreview() {
       img.loading = "lazy";
       img.decoding = "async";
 
-      const caption = document.createElement("figcaption");
-      caption.className = "caption";
-      caption.textContent = item.group || "Comunidad";
-
       fig.appendChild(img);
-      fig.appendChild(caption);
       container.appendChild(fig);
 
       const openLightbox = () => lightbox.open(previewItems, index);
@@ -233,20 +253,37 @@ async function initCommunityPreview() {
   }
 }
 
-function setupFilterChips(container, labels, onChange, defaultValue = "Todos") {
+function setupFilterChips(
+  container,
+  labels,
+  onChange,
+  defaultValue = "Todos",
+  options = {}
+) {
   if (!container) return;
   container.innerHTML = "";
   const allLabel = "Todos";
-  const values = [allLabel, ...labels];
-  const initial = values.includes(defaultValue) ? defaultValue : allLabel;
+  const allValue = "Todos";
+  const { allText = "Todos", formatLabel = (label) => label } = options;
+  const chipOptions = [
+    { label: allLabel, value: allValue, text: allText },
+    ...labels.map((label) => ({
+      label,
+      value: label,
+      text: formatLabel(label),
+    })),
+  ];
+  const initial = chipOptions.some((opt) => opt.value === defaultValue)
+    ? defaultValue
+    : allValue;
 
-  values.forEach((label) => {
+  chipOptions.forEach(({ value, text }) => {
     const btn = document.createElement("button");
     btn.type = "button";
-    btn.className = "chip" + (label === initial ? " active" : "");
-    btn.textContent = label;
-    btn.dataset.value = label;
-    btn.setAttribute("aria-pressed", label === initial ? "true" : "false");
+    btn.className = "chip" + (value === initial ? " active" : "");
+    btn.textContent = text;
+    btn.dataset.value = value;
+    btn.setAttribute("aria-pressed", value === initial ? "true" : "false");
 
     btn.addEventListener("click", () => {
       container.querySelectorAll(".chip").forEach((chip) => {
@@ -255,7 +292,7 @@ function setupFilterChips(container, labels, onChange, defaultValue = "Todos") {
       });
       btn.classList.add("active");
       btn.setAttribute("aria-pressed", "true");
-      onChange(label);
+      onChange(value);
     });
 
     container.appendChild(btn);
@@ -283,12 +320,7 @@ function renderGallery(items, container) {
     img.loading = "lazy";
     img.decoding = "async";
 
-    const caption = document.createElement("figcaption");
-    caption.className = "caption";
-    caption.textContent = item.alt || "Foto";
-
     fig.appendChild(img);
-    fig.appendChild(caption);
     container.appendChild(fig);
 
     const openLightbox = () => lightbox.open(items, index);

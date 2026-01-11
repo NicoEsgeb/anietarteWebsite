@@ -1,0 +1,217 @@
+[
+  {
+    "category": "Budas",
+    "items": [
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0001.JPG",
+        "alt": "Budas - Ziña Buda BD-0001"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0002.JPG",
+        "alt": "Budas - Ziña Buda BD-0002"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0003.JPG",
+        "alt": "Budas - Ziña Buda BD-0003"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0004.JPG",
+        "alt": "Budas - Ziña Buda BD-0004"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0005.JPG",
+        "alt": "Budas - Ziña Buda BD-0005"
+      }
+    ]
+  },
+  {
+    "category": "CajasMadera",
+    "items": [
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja motivo CM-0001.JPG",
+        "alt": "CajasMadera - Caja motivo CM-0001"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja motivo CM-0002.JPG",
+        "alt": "CajasMadera - Caja motivo CM-0002"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0001.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0001"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0002.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0002"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0003.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0003"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0004.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0004"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0005.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0005"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0006.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0006"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0007.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0007"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0009.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0009"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Caja organizador CJ-0010.JPG",
+        "alt": "CajasMadera - Caja organizador CJ-0010"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Cuadro Bebé CB-0002.JPG",
+        "alt": "CajasMadera - Cuadro Bebé CB-0002"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Cuadro Bebé CB-0003.JPG",
+        "alt": "CajasMadera - Cuadro Bebé CB-0003"
+      }
+    ]
+  },
+  {
+    "category": "EsculturasAnimales",
+    "items": [
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0001.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0001"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0002.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0002"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0003.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0003"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0004.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0004"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0005.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0005"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0006.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0006"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0007.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0007"
+      }
+    ]
+  },
+  {
+    "category": "EsculturasHumanas",
+    "items": [
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0001.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0001"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0002.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0002"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0003.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0003"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0004.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0004"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0005.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0005"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0006.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0006"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0007.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0007"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0008.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0008"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0009.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0009"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0010.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0010"
+      }
+    ]
+  },
+  {
+    "category": "PortaRegalos",
+    "items": [
+      {
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0001.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0001"
+      },
+      {
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0002.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0002"
+      },
+      {
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0003.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0003"
+      },
+      {
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0004.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0004"
+      },
+      {
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0005.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0005"
+      },
+      {
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo adulto PA-0001.JPG",
+        "alt": "PortaRegalos - Porta regalo adulto PA-0001"
+      }
+    ]
+  },
+  {
+    "category": "TablasPicoteo",
+    "items": [
+      {
+        "src": "resources/imagesObjects/TablasPicoteo/Tabla picoteo TP-0001.JPG",
+        "alt": "TablasPicoteo - Tabla picoteo TP-0001"
+      },
+      {
+        "src": "resources/imagesObjects/TablasPicoteo/Tabla picoteo TP-0002.JPG",
+        "alt": "TablasPicoteo - Tabla picoteo TP-0002"
+      }
+    ]
+  },
+  {
+    "category": "otros",
+    "items": [
+      {
+        "src": "resources/imagesObjects/otros/Decorativa DC-0001.JPG",
+        "alt": "otros - Decorativa DC-0001"
+      },
+      {
+        "src": "resources/imagesObjects/otros/Decorativa DC-0002.JPG",
+        "alt": "otros - Decorativa DC-0002"
+      }
+    ]
+  }
+]
