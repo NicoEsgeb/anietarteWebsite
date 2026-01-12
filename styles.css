@@ -182,6 +182,12 @@ main {
   align-items: start;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .hero-aside {
   display: flex;
   flex-direction: column;
@@ -191,10 +197,9 @@ main {
 
 .hero-collage {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: clamp(140px, 12vw, 150px);
   gap: 12px;
-  height: clamp(250px, 32vw, 280px);
 }
 
 .hero-collage > * {
@@ -204,30 +209,38 @@ main {
   overflow: hidden;
 }
 
-.hero-collage img:first-child {
-  grid-column: 1;
-  grid-row: 1 / span 2;
-}
-
-.hero-collage img:nth-child(2) {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.hero-collage img:nth-child(3) {
-  grid-column: 2;
-  grid-row: 2;
-}
-
 .hero-collage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+.hero-logo-block {
+  align-self: center;
+  height: clamp(250px, 32vw, 280px);
+  width: 100%;
+  max-width: 460px;
+  padding: 0;
+  border-radius: var(--radius);
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-logo-block img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 10px 22px rgba(47, 42, 40, 0.12));
+}
+
 .hero h1 {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-size: clamp(1.55rem, 2.3vw, 2.05rem);
   margin: 10px 0 16px;
   line-height: 1.1;
 }
@@ -915,6 +928,13 @@ main {
   .hero {
     grid-template-columns: 1fr;
   }
+
+  .hero-collage {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: none;
+    grid-auto-rows: 150px;
+    height: auto;
+  }
 }
 
 @media (max-width: 760px) {
@@ -954,20 +974,20 @@ main {
   }
 
   .hero-collage {
-    grid-template-columns: 1fr;
-    grid-template-rows: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 140px;
     height: auto;
   }
 
-  .hero-collage img:first-child,
-  .hero-collage img:nth-child(2),
-  .hero-collage img:nth-child(3) {
-    grid-column: auto;
-    grid-row: auto;
+  .hero-collage img {
+    height: 100%;
   }
 
-  .hero-collage img {
+  .hero-logo-block {
     height: clamp(180px, 52vw, 220px);
+    max-width: 260px;
+    margin-top: 4px;
+    margin-left: 0;
   }
 
   .gallery-grid,

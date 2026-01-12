@@ -49,7 +49,7 @@ async function loadHomeHero() {
     if (!images.length) return;
 
     collage.innerHTML = "";
-    images.slice(0, 3).forEach((item) => {
+    images.slice(0, 8).forEach((item) => {
       const img = document.createElement("img");
       img.src = encodeURI(item.src);
       img.alt = item.alt || "Foto del taller";

@@ -11,6 +11,26 @@
     {
       "src": "resources/imagesInicio/inicio3.png",
       "alt": "inicio3"
+    },
+    {
+      "src": "resources/imagesInicio/inicio4.png",
+      "alt": "inicio4"
+    },
+    {
+      "src": "resources/imagesInicio/inicio5.png",
+      "alt": "inicio5"
+    },
+    {
+      "src": "resources/imagesInicio/inicio6.png",
+      "alt": "inicio6"
+    },
+    {
+      "src": "resources/imagesInicio/inicio7.png",
+      "alt": "inicio7"
+    },
+    {
+      "src": "resources/imagesInicio/inicio8.png",
+      "alt": "inicio8"
     }
   ]
 }
