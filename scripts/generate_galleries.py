@@ -123,21 +123,35 @@ def save_json(path: Path, payload: List[Dict]) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def build_home_payload(home_dir: Path, base_dir: Path) -> Dict:
+  """Return hero images for the landing page."""
+  images = list_image_files(home_dir)
+  items = []
+  for img in images:
+      rel_path = img.relative_to(base_dir).as_posix()
+      items.append({"src": rel_path, "alt": img.stem})
+  return {"heroImages": items}
+
+
 def main() -> None:
     repo_root = find_repo_root()
     resources_dir = repo_root / "resources"
     objects_dir = resources_dir / "imagesObjects"
     people_dir = resources_dir / "imagesPeople"
+    home_dir = resources_dir / "imagesInicio"
     data_dir = repo_root / "data"
 
     objects_payload = build_objects_payload(objects_dir, repo_root)
     people_payload = build_people_payload(people_dir, repo_root)
+    home_payload = build_home_payload(home_dir, repo_root)
 
     save_json(data_dir / "objects.json", objects_payload)
     save_json(data_dir / "people.json", people_payload)
+    save_json(data_dir / "home.json", home_payload)
 
     print(f"Wrote {len(objects_payload)} object categories to data/objects.json")
     print(f"Wrote {len(people_payload)} people groups to data/people.json")
+    print(f"Wrote {len(home_payload.get('heroImages', []))} hero images to data/home.json")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,16 @@
+{
+  "heroImages": [
+    {
+      "src": "resources/imagesInicio/inicio1.png",
+      "alt": "inicio1"
+    },
+    {
+      "src": "resources/imagesInicio/inicio2.png",
+      "alt": "inicio2"
+    },
+    {
+      "src": "resources/imagesInicio/inicio3.png",
+      "alt": "inicio3"
+    }
+  ]
+}

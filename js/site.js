@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   highlightActiveNav();
+  loadHomeHero();
 });
 
 function highlightActiveNav() {
@@ -34,4 +35,29 @@ function highlightActiveNav() {
       link.classList.add("active");
     }
   });
+}
+
+async function loadHomeHero() {
+  const collage = document.querySelector(".hero-collage");
+  if (!collage) return;
+
+  try {
+    const res = await fetch("data/home.json");
+    if (!res.ok) return;
+    const data = await res.json();
+    const images = Array.isArray(data.heroImages) ? data.heroImages : [];
+    if (!images.length) return;
+
+    collage.innerHTML = "";
+    images.slice(0, 3).forEach((item) => {
+      const img = document.createElement("img");
+      img.src = encodeURI(item.src);
+      img.alt = item.alt || "Foto del taller";
+      img.loading = "lazy";
+      img.decoding = "async";
+      collage.appendChild(img);
+    });
+  } catch (error) {
+    // Si falla, dejamos las imágenes estáticas ya presentes en el HTML.
+  }
 }
