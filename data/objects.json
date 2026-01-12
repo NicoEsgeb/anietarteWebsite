@@ -29,14 +29,6 @@
       {
         "src": "resources/imagesObjects/Budas/Screenshot 2026-01-12 at 10.46.29.png",
         "alt": "Budas - Screenshot 2026-01-12 at 10.46.29"
-      },
-      {
-        "src": "resources/imagesObjects/Budas/test.JPG",
-        "alt": "Budas - test"
-      },
-      {
-        "src": "resources/imagesObjects/Budas/test2.JPG",
-        "alt": "Budas - test2"
       }
     ]
   },
@@ -286,27 +278,27 @@
     ]
   },
   {
-    "category": "ParaTuJardín",
+    "category": "ParaTuJardín",
     "items": [
       {
-        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.44.51.png",
-        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.44.51"
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.44.51.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.44.51"
       },
       {
-        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.45.08.png",
-        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.45.08"
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.45.08.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.45.08"
       },
       {
-        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.48.23.png",
-        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.48.23"
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.48.23.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.48.23"
       },
       {
-        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 11.52.02.png",
-        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 11.52.02"
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 11.52.02.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 11.52.02"
       },
       {
-        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 11.52.53.png",
-        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 11.52.53"
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 11.52.53.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 11.52.53"
       }
     ]
   },
