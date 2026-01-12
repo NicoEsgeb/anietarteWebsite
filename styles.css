@@ -760,6 +760,25 @@ main {
   color: #4a433f;
 }
 
+@media (max-width: 1024px) {
+  .stacked-shots {
+    height: 130px;
+  }
+  .stacked-shots img {
+    width: 38%;
+    max-width: 150px;
+  }
+  .stacked-shots img:nth-child(1) {
+    left: -2%;
+  }
+  .stacked-shots img:nth-child(2) {
+    left: 32%;
+  }
+  .stacked-shots img:nth-child(3) {
+    left: 64%;
+  }
+}
+
 @media (max-width: 720px) {
   .stacked-shots {
     height: 130px;
