@@ -3,24 +3,40 @@
     "category": "Budas",
     "items": [
       {
-        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0001.JPG",
-        "alt": "Budas - Ziña Buda BD-0001"
+        "src": "resources/imagesObjects/Budas/Screenshot 2026-01-12 at 10.45.37.png",
+        "alt": "Budas - Screenshot 2026-01-12 at 10.45.37"
       },
       {
-        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0002.JPG",
-        "alt": "Budas - Ziña Buda BD-0002"
+        "src": "resources/imagesObjects/Budas/Screenshot 2026-01-12 at 10.46.29.png",
+        "alt": "Budas - Screenshot 2026-01-12 at 10.46.29"
       },
       {
-        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0003.JPG",
-        "alt": "Budas - Ziña Buda BD-0003"
+        "src": "resources/imagesObjects/Budas/test.JPG",
+        "alt": "Budas - test"
       },
       {
-        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0004.JPG",
-        "alt": "Budas - Ziña Buda BD-0004"
+        "src": "resources/imagesObjects/Budas/test2.JPG",
+        "alt": "Budas - test2"
       },
       {
-        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0005.JPG",
-        "alt": "Budas - Ziña Buda BD-0005"
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0001.JPG",
+        "alt": "Budas - Ziña Buda BD-0001"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0002.JPG",
+        "alt": "Budas - Ziña Buda BD-0002"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0003.JPG",
+        "alt": "Budas - Ziña Buda BD-0003"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0004.JPG",
+        "alt": "Budas - Ziña Buda BD-0004"
+      },
+      {
+        "src": "resources/imagesObjects/Budas/Ziña Buda BD-0005.JPG",
+        "alt": "Budas - Ziña Buda BD-0005"
       }
     ]
   },
@@ -72,12 +88,78 @@
         "alt": "CajasMadera - Caja organizador CJ-0010"
       },
       {
-        "src": "resources/imagesObjects/CajasMadera/Cuadro Bebé CB-0002.JPG",
-        "alt": "CajasMadera - Cuadro Bebé CB-0002"
+        "src": "resources/imagesObjects/CajasMadera/Cuadro Bebé CB-0002.JPG",
+        "alt": "CajasMadera - Cuadro Bebé CB-0002"
       },
       {
-        "src": "resources/imagesObjects/CajasMadera/Cuadro Bebé CB-0003.JPG",
-        "alt": "CajasMadera - Cuadro Bebé CB-0003"
+        "src": "resources/imagesObjects/CajasMadera/Cuadro Bebé CB-0003.JPG",
+        "alt": "CajasMadera - Cuadro Bebé CB-0003"
+      },
+      {
+        "src": "resources/imagesObjects/CajasMadera/Screenshot 2026-01-12 at 10.45.50.png",
+        "alt": "CajasMadera - Screenshot 2026-01-12 at 10.45.50"
+      }
+    ]
+  },
+  {
+    "category": "Cuadros",
+    "items": [
+      {
+        "src": "resources/imagesObjects/Cuadros/Screenshot 2026-01-12 at 11.50.25.png",
+        "alt": "Cuadros - Screenshot 2026-01-12 at 11.50.25"
+      },
+      {
+        "src": "resources/imagesObjects/Cuadros/Screenshot 2026-01-12 at 11.50.53.png",
+        "alt": "Cuadros - Screenshot 2026-01-12 at 11.50.53"
+      },
+      {
+        "src": "resources/imagesObjects/Cuadros/Screenshot 2026-01-12 at 11.51.16.png",
+        "alt": "Cuadros - Screenshot 2026-01-12 at 11.51.16"
+      },
+      {
+        "src": "resources/imagesObjects/Cuadros/Screenshot 2026-01-12 at 11.51.28.png",
+        "alt": "Cuadros - Screenshot 2026-01-12 at 11.51.28"
+      },
+      {
+        "src": "resources/imagesObjects/Cuadros/Screenshot 2026-01-12 at 11.51.37.png",
+        "alt": "Cuadros - Screenshot 2026-01-12 at 11.51.37"
+      },
+      {
+        "src": "resources/imagesObjects/Cuadros/Screenshot 2026-01-12 at 11.51.46.png",
+        "alt": "Cuadros - Screenshot 2026-01-12 at 11.51.46"
+      },
+      {
+        "src": "resources/imagesObjects/Cuadros/Screenshot 2026-01-12 at 11.52.09.png",
+        "alt": "Cuadros - Screenshot 2026-01-12 at 11.52.09"
+      }
+    ]
+  },
+  {
+    "category": "Decorativo",
+    "items": [
+      {
+        "src": "resources/imagesObjects/Decorativo/Decorativa DC-0001.JPG",
+        "alt": "Decorativo - Decorativa DC-0001"
+      },
+      {
+        "src": "resources/imagesObjects/Decorativo/Decorativa DC-0002.JPG",
+        "alt": "Decorativo - Decorativa DC-0002"
+      },
+      {
+        "src": "resources/imagesObjects/Decorativo/Decorativo.png",
+        "alt": "Decorativo - Decorativo"
+      },
+      {
+        "src": "resources/imagesObjects/Decorativo/Screenshot 2026-01-12 at 10.45.56.png",
+        "alt": "Decorativo - Screenshot 2026-01-12 at 10.45.56"
+      },
+      {
+        "src": "resources/imagesObjects/Decorativo/Screenshot 2026-01-12 at 10.47.28.png",
+        "alt": "Decorativo - Screenshot 2026-01-12 at 10.47.28"
+      },
+      {
+        "src": "resources/imagesObjects/Decorativo/Screenshot 2026-01-12 at 11.54.30.png",
+        "alt": "Decorativo - Screenshot 2026-01-12 at 11.54.30"
       }
     ]
   },
@@ -85,32 +167,52 @@
     "category": "EsculturasAnimales",
     "items": [
       {
-        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0001.JPG",
-        "alt": "EsculturasAnimales - Ziña animal ZA-0001"
+        "src": "resources/imagesObjects/EsculturasAnimales/bull.png",
+        "alt": "EsculturasAnimales - bull"
       },
       {
-        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0002.JPG",
-        "alt": "EsculturasAnimales - Ziña animal ZA-0002"
+        "src": "resources/imagesObjects/EsculturasAnimales/Screenshot 2026-01-12 at 10.41.37.png",
+        "alt": "EsculturasAnimales - Screenshot 2026-01-12 at 10.41.37"
       },
       {
-        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0003.JPG",
-        "alt": "EsculturasAnimales - Ziña animal ZA-0003"
+        "src": "resources/imagesObjects/EsculturasAnimales/Screenshot 2026-01-12 at 10.46.13.png",
+        "alt": "EsculturasAnimales - Screenshot 2026-01-12 at 10.46.13"
       },
       {
-        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0004.JPG",
-        "alt": "EsculturasAnimales - Ziña animal ZA-0004"
+        "src": "resources/imagesObjects/EsculturasAnimales/Screenshot 2026-01-12 at 11.53.14.png",
+        "alt": "EsculturasAnimales - Screenshot 2026-01-12 at 11.53.14"
       },
       {
-        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0005.JPG",
-        "alt": "EsculturasAnimales - Ziña animal ZA-0005"
+        "src": "resources/imagesObjects/EsculturasAnimales/Screenshot 2026-01-12 at 11.53.22.png",
+        "alt": "EsculturasAnimales - Screenshot 2026-01-12 at 11.53.22"
       },
       {
-        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0006.JPG",
-        "alt": "EsculturasAnimales - Ziña animal ZA-0006"
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0001.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0001"
       },
       {
-        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0007.JPG",
-        "alt": "EsculturasAnimales - Ziña animal ZA-0007"
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0002.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0002"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0003.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0003"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0004.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0004"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0005.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0005"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0006.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0006"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasAnimales/Ziña animal ZA-0007.JPG",
+        "alt": "EsculturasAnimales - Ziña animal ZA-0007"
       }
     ]
   },
@@ -118,57 +220,93 @@
     "category": "EsculturasHumanas",
     "items": [
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0001.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0001"
+        "src": "resources/imagesObjects/EsculturasHumanas/elf.png",
+        "alt": "EsculturasHumanas - elf"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0002.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0002"
+        "src": "resources/imagesObjects/EsculturasHumanas/Screenshot 2026-01-12 at 10.45.30.png",
+        "alt": "EsculturasHumanas - Screenshot 2026-01-12 at 10.45.30"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0003.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0003"
+        "src": "resources/imagesObjects/EsculturasHumanas/Screenshot 2026-01-12 at 10.46.21.png",
+        "alt": "EsculturasHumanas - Screenshot 2026-01-12 at 10.46.21"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0004.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0004"
+        "src": "resources/imagesObjects/EsculturasHumanas/Screenshot 2026-01-12 at 10.46.36.png",
+        "alt": "EsculturasHumanas - Screenshot 2026-01-12 at 10.46.36"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0005.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0005"
+        "src": "resources/imagesObjects/EsculturasHumanas/Screenshot 2026-01-12 at 10.48.11.png",
+        "alt": "EsculturasHumanas - Screenshot 2026-01-12 at 10.48.11"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0006.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0006"
+        "src": "resources/imagesObjects/EsculturasHumanas/Screenshot 2026-01-12 at 11.57.09.png",
+        "alt": "EsculturasHumanas - Screenshot 2026-01-12 at 11.57.09"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0007.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0007"
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0001.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0001"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0008.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0008"
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0002.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0002"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0009.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0009"
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0003.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0003"
       },
       {
-        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0010.JPG",
-        "alt": "EsculturasHumanas - Ziña fig humana ZH-0010"
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0004.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0004"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0005.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0005"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0006.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0006"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0007.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0007"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0008.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0008"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0009.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0009"
+      },
+      {
+        "src": "resources/imagesObjects/EsculturasHumanas/Ziña fig humana ZH-0010.JPG",
+        "alt": "EsculturasHumanas - Ziña fig humana ZH-0010"
       }
     ]
   },
   {
-    "category": "otros",
+    "category": "ParaTuJardín",
     "items": [
       {
-        "src": "resources/imagesObjects/otros/Decorativa DC-0001.JPG",
-        "alt": "otros - Decorativa DC-0001"
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.44.51.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.44.51"
       },
       {
-        "src": "resources/imagesObjects/otros/Decorativa DC-0002.JPG",
-        "alt": "otros - Decorativa DC-0002"
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.45.08.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.45.08"
+      },
+      {
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 10.48.23.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 10.48.23"
+      },
+      {
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 11.52.02.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 11.52.02"
+      },
+      {
+        "src": "resources/imagesObjects/ParaTuJardín/Screenshot 2026-01-12 at 11.52.53.png",
+        "alt": "ParaTuJardín - Screenshot 2026-01-12 at 11.52.53"
       }
     ]
   },
@@ -180,24 +318,24 @@
         "alt": "PortaRegalos - Porta regalo adulto PA-0001"
       },
       {
-        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0001.JPG",
-        "alt": "PortaRegalos - Porta regalo Bebé PR-0001"
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0001.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0001"
       },
       {
-        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0002.JPG",
-        "alt": "PortaRegalos - Porta regalo Bebé PR-0002"
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0002.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0002"
       },
       {
-        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0003.JPG",
-        "alt": "PortaRegalos - Porta regalo Bebé PR-0003"
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0003.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0003"
       },
       {
-        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0004.JPG",
-        "alt": "PortaRegalos - Porta regalo Bebé PR-0004"
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0004.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0004"
       },
       {
-        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0005.JPG",
-        "alt": "PortaRegalos - Porta regalo Bebé PR-0005"
+        "src": "resources/imagesObjects/PortaRegalos/Porta regalo Bebé PR-0005.JPG",
+        "alt": "PortaRegalos - Porta regalo Bebé PR-0005"
       }
     ]
   },
@@ -211,6 +349,71 @@
       {
         "src": "resources/imagesObjects/TablasPicoteo/Tabla picoteo TP-0002.JPG",
         "alt": "TablasPicoteo - Tabla picoteo TP-0002"
+      }
+    ]
+  },
+  {
+    "category": "Tecnicas",
+    "items": [
+      {
+        "src": "resources/imagesObjects/Tecnicas/ArteMexicano.png",
+        "alt": "Tecnicas - ArteMexicano"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/DecoupageEnRelieve.png",
+        "alt": "Tecnicas - DecoupageEnRelieve"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/EfectoOxido.png",
+        "alt": "Tecnicas - EfectoOxido"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/EfectoOxido2.png",
+        "alt": "Tecnicas - EfectoOxido2"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/falsoEnlosado.png",
+        "alt": "Tecnicas - falsoEnlosado"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/Lapislazuli.png",
+        "alt": "Tecnicas - Lapislazuli"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/Lapislazuli2.png",
+        "alt": "Tecnicas - Lapislazuli2"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/Lapislazuli3.png",
+        "alt": "Tecnicas - Lapislazuli3"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/MaderaVetadaSimple.png",
+        "alt": "Tecnicas - MaderaVetadaSimple"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/MarmolAhumado.png",
+        "alt": "Tecnicas - MarmolAhumado"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/MarmolDeCarrara.png",
+        "alt": "Tecnicas - MarmolDeCarrara"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/MetalPlata.png",
+        "alt": "Tecnicas - MetalPlata"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/PincelSeco.png",
+        "alt": "Tecnicas - PincelSeco"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/Puntillismo.png",
+        "alt": "Tecnicas - Puntillismo"
+      },
+      {
+        "src": "resources/imagesObjects/Tecnicas/Screenshot 2026-01-12 at 10.48.00.png",
+        "alt": "Tecnicas - Screenshot 2026-01-12 at 10.48.00"
       }
     ]
   }

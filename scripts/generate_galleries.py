@@ -51,6 +51,36 @@ def build_people_payload(people_dir: Path, base_dir: Path) -> List[Dict]:
     if not people_dir.is_dir():
         return []
 
+    # Prefer grouping by subfolders so adding a new folder automatically creates a new section.
+    subfolders = sorted(
+        [path for path in people_dir.iterdir() if path.is_dir()],
+        key=lambda path: path.name.casefold(),
+    )
+    if subfolders:
+        payload: List[Dict] = []
+
+        # Images sitting directly under imagesPeople still get included as their own group.
+        root_items = []
+        for img in list_image_files(people_dir):
+            rel_path = img.relative_to(base_dir).as_posix()
+            alt_text = f"{people_dir.name} - {img.stem}"
+            root_items.append({"src": rel_path, "alt": alt_text})
+        if root_items:
+            payload.append({"group": people_dir.name, "items": root_items})
+
+        for group_dir in subfolders:
+            items = []
+            for img in list_image_files(group_dir):
+                rel_path = img.relative_to(base_dir).as_posix()
+                alt_text = f"{group_dir.name} - {img.stem}"
+                items.append({"src": rel_path, "alt": alt_text})
+
+            if items:
+                payload.append({"group": group_dir.name, "items": items})
+
+        return payload
+
+    # Fallback: legacy prefix-based grouping for when there are no subfolders yet.
     prefix_groups = [
         ("groupSelfie", "Fotos del grupo"),
         ("groupWorking", "Trabajando juntas"),

@@ -10,6 +10,7 @@ Sitio estático cálido y comunitario para mostrar las creaciones del club de ar
 - `contact.html` cómo unirse y preguntas frecuentes.
 - `data/objects.json` y `data/people.json` se generan desde `resources/`.
 - `scripts/generate_galleries.py` genera los JSON leyendo `resources/imagesObjects` y `resources/imagesPeople`.
+- Cada subcarpeta dentro de `resources/imagesObjects` o `resources/imagesPeople` crea automáticamente una sección nueva en la galería con las fotos que contenga.
 - `resources/` contiene las fotos originales (no mover ni renombrar).
 
 ## Ejecutar localmente
@@ -21,10 +22,11 @@ Sitio estático cálido y comunitario para mostrar las creaciones del club de ar
 3. Abre `http://localhost:8000` en tu navegador.
 
 ## Regenerar los datos de galería
-Si agregas o quitas imágenes en `resources/`, vuelve a generar los JSON:
+Si agregas o quitas imágenes (o creas nuevas carpetas/secciones) en `resources/`, vuelve a generar los JSON:
 ```bash
 python3 scripts/generate_galleries.py
 ```
+Para comunidad, si aún no tienes subcarpetas en `resources/imagesPeople`, el script mantiene el agrupado por prefijos; en cuanto crees carpetas, cada una se convertirá en sección con sus fotos.
 
 ## Despliegue en GitHub Pages
 1. Haz commit y push al repositorio.

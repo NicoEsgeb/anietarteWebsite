@@ -1,105 +1,149 @@
 [
   {
-    "group": "Fotos del grupo",
+    "group": "AlumnasYSuArte",
     "items": [
       {
-        "src": "resources/imagesPeople/groupSelfie.png",
-        "alt": "Fotos del grupo"
+        "src": "resources/imagesPeople/AlumnasYSuArte/personShowingTheirObjectCreated.png",
+        "alt": "AlumnasYSuArte - personShowingTheirObjectCreated"
       },
       {
-        "src": "resources/imagesPeople/groupSelfie2.png",
-        "alt": "Fotos del grupo"
+        "src": "resources/imagesPeople/AlumnasYSuArte/personShowingTheirObjectCreated2.png",
+        "alt": "AlumnasYSuArte - personShowingTheirObjectCreated2"
       },
       {
-        "src": "resources/imagesPeople/groupSelfie3.png",
-        "alt": "Fotos del grupo"
-      },
-      {
-        "src": "resources/imagesPeople/groupSelfie5.png",
-        "alt": "Fotos del grupo"
+        "src": "resources/imagesPeople/AlumnasYSuArte/personShowingTheirObjectCreated3.png",
+        "alt": "AlumnasYSuArte - personShowingTheirObjectCreated3"
       }
     ]
   },
   {
-    "group": "Trabajando juntas",
+    "group": "Creaciones",
     "items": [
       {
-        "src": "resources/imagesPeople/groupWorking.png",
-        "alt": "Trabajando juntas"
+        "src": "resources/imagesPeople/Creaciones/objectCreated1.png",
+        "alt": "Creaciones - objectCreated1"
       },
       {
-        "src": "resources/imagesPeople/groupWorking3.png",
-        "alt": "Trabajando juntas"
+        "src": "resources/imagesPeople/Creaciones/objectCreated2.png",
+        "alt": "Creaciones - objectCreated2"
       },
       {
-        "src": "resources/imagesPeople/groupWorking4.png",
-        "alt": "Trabajando juntas"
+        "src": "resources/imagesPeople/Creaciones/objectCreated3.png",
+        "alt": "Creaciones - objectCreated3"
       },
       {
-        "src": "resources/imagesPeople/groupWorking5.png",
-        "alt": "Trabajando juntas"
+        "src": "resources/imagesPeople/Creaciones/objectCreated4.png",
+        "alt": "Creaciones - objectCreated4"
       },
       {
-        "src": "resources/imagesPeople/groupWorking6.png",
-        "alt": "Trabajando juntas"
+        "src": "resources/imagesPeople/Creaciones/objectCreated5.png",
+        "alt": "Creaciones - objectCreated5"
       },
       {
-        "src": "resources/imagesPeople/groupWorking7.png",
-        "alt": "Trabajando juntas"
+        "src": "resources/imagesPeople/Creaciones/objectCreated6.png",
+        "alt": "Creaciones - objectCreated6"
       },
       {
-        "src": "resources/imagesPeople/groupWorking8.png",
-        "alt": "Trabajando juntas"
+        "src": "resources/imagesPeople/Creaciones/objectCreated8.png",
+        "alt": "Creaciones - objectCreated8"
+      },
+      {
+        "src": "resources/imagesPeople/Creaciones/Screenshot 2026-01-12 at 10.43.07.png",
+        "alt": "Creaciones - Screenshot 2026-01-12 at 10.43.07"
+      },
+      {
+        "src": "resources/imagesPeople/Creaciones/Screenshot 2026-01-12 at 10.43.20.png",
+        "alt": "Creaciones - Screenshot 2026-01-12 at 10.43.20"
+      },
+      {
+        "src": "resources/imagesPeople/Creaciones/Screenshot 2026-01-12 at 10.43.35.png",
+        "alt": "Creaciones - Screenshot 2026-01-12 at 10.43.35"
+      },
+      {
+        "src": "resources/imagesPeople/Creaciones/Screenshot 2026-01-12 at 10.43.44.png",
+        "alt": "Creaciones - Screenshot 2026-01-12 at 10.43.44"
       }
     ]
   },
   {
-    "group": "Nuestras creaciones",
+    "group": "FotosDelGrupo",
     "items": [
       {
-        "src": "resources/imagesPeople/objectCreated1.png",
-        "alt": "Nuestras creaciones"
+        "src": "resources/imagesPeople/FotosDelGrupo/fotoSocialMedia.png",
+        "alt": "FotosDelGrupo - fotoSocialMedia"
       },
       {
-        "src": "resources/imagesPeople/objectCreated2.png",
-        "alt": "Nuestras creaciones"
+        "src": "resources/imagesPeople/FotosDelGrupo/groupSelfie.png",
+        "alt": "FotosDelGrupo - groupSelfie"
       },
       {
-        "src": "resources/imagesPeople/objectCreated3.png",
-        "alt": "Nuestras creaciones"
+        "src": "resources/imagesPeople/FotosDelGrupo/groupSelfie2.png",
+        "alt": "FotosDelGrupo - groupSelfie2"
       },
       {
-        "src": "resources/imagesPeople/objectCreated4.png",
-        "alt": "Nuestras creaciones"
+        "src": "resources/imagesPeople/FotosDelGrupo/groupSelfie3.png",
+        "alt": "FotosDelGrupo - groupSelfie3"
       },
       {
-        "src": "resources/imagesPeople/objectCreated5.png",
-        "alt": "Nuestras creaciones"
+        "src": "resources/imagesPeople/FotosDelGrupo/groupSelfie5.png",
+        "alt": "FotosDelGrupo - groupSelfie5"
       },
       {
-        "src": "resources/imagesPeople/objectCreated6.png",
-        "alt": "Nuestras creaciones"
+        "src": "resources/imagesPeople/FotosDelGrupo/groupSelfie6.png",
+        "alt": "FotosDelGrupo - groupSelfie6"
       },
       {
-        "src": "resources/imagesPeople/objectCreated8.png",
-        "alt": "Nuestras creaciones"
+        "src": "resources/imagesPeople/FotosDelGrupo/Screenshot 2026-01-12 at 11.53.55.png",
+        "alt": "FotosDelGrupo - Screenshot 2026-01-12 at 11.53.55"
       }
     ]
   },
   {
-    "group": "Alumnas y su arte",
+    "group": "TrabajandoJuntas",
     "items": [
       {
-        "src": "resources/imagesPeople/personShowingTheirObjectCreated.png",
-        "alt": "Alumnas y su arte"
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking.png",
+        "alt": "TrabajandoJuntas - groupWorking"
       },
       {
-        "src": "resources/imagesPeople/personShowingTheirObjectCreated2.png",
-        "alt": "Alumnas y su arte"
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking10.png",
+        "alt": "TrabajandoJuntas - groupWorking10"
       },
       {
-        "src": "resources/imagesPeople/personShowingTheirObjectCreated3.png",
-        "alt": "Alumnas y su arte"
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking11.png",
+        "alt": "TrabajandoJuntas - groupWorking11"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking12.png",
+        "alt": "TrabajandoJuntas - groupWorking12"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking3.png",
+        "alt": "TrabajandoJuntas - groupWorking3"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking4.png",
+        "alt": "TrabajandoJuntas - groupWorking4"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking5.png",
+        "alt": "TrabajandoJuntas - groupWorking5"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking6.png",
+        "alt": "TrabajandoJuntas - groupWorking6"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking7.png",
+        "alt": "TrabajandoJuntas - groupWorking7"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking8.png",
+        "alt": "TrabajandoJuntas - groupWorking8"
+      },
+      {
+        "src": "resources/imagesPeople/TrabajandoJuntas/groupWorking9.png",
+        "alt": "TrabajandoJuntas - groupWorking9"
       }
     ]
   }

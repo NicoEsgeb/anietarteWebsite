@@ -1,14 +1,5 @@
 const dataCache = {};
 const lightbox = createLightbox();
-const OBJECT_CATEGORY_LABELS = {
-  CajasMadera: "Cajas de Madera",
-  EsculturasAnimales: "Esculturas de animales",
-  EsculturasHumanas: "Esculturas humanas",
-  PortaRegalos: "Porta regalos",
-  TablasPicoteo: "Tablas de Picoteo",
-  otros: "Otros",
-};
-
 document.addEventListener("DOMContentLoaded", () => {
   initObjectsPage();
   initPeoplePage();
@@ -113,8 +104,19 @@ function createLightbox() {
   };
 }
 
+function prettifyLabel(cat) {
+  // Insert spaces before mid-word capitals (e.g., "CajasDeMadera" -> "Cajas de madera")
+  const spaced = cat.replace(/(?!^)([A-Z])/g, " $1");
+  const lowercased = spaced.toLowerCase();
+  return lowercased.charAt(0).toUpperCase() + lowercased.slice(1);
+}
+
 function formatObjectCategory(cat) {
-  return OBJECT_CATEGORY_LABELS[cat] || cat;
+  return prettifyLabel(cat);
+}
+
+function formatPeopleGroup(group) {
+  return prettifyLabel(group);
 }
 
 async function initObjectsPage() {
@@ -179,6 +181,7 @@ async function initPeoplePage() {
       "Todos",
       {
         allText: "Todas las fotos",
+        formatLabel: formatPeopleGroup,
       }
     );
   } catch (error) {
